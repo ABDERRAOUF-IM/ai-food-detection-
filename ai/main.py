@@ -12,7 +12,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 
-app = FastAPI(title="AI Food Detection", version="1.0.0")
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
