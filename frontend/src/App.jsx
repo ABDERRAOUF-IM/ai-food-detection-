@@ -5,7 +5,7 @@ import MealHistory    from './components/MealHistory'
 import NutritionChart from './components/NutritionChart'
 import { Utensils, History, BarChart3, Zap, Info } from 'lucide-react'
 
-const API = 'http://localhost:8001'
+const API = 'https://ai-food-detection--1.onrender.com/predict/'
 
 export default function App() {
   const [tab,     setTab]     = useState('detect')
