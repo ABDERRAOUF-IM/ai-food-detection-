@@ -5,7 +5,7 @@ import MealHistory    from './components/MealHistory'
 import NutritionChart from './components/NutritionChart'
 import { Utensils, History, BarChart3, Zap, Info } from 'lucide-react'
 
-const API = 'https://ai-food-detection-1.onrender.com'
+const API = 'https://abderraoufim-ai-food-api.hf.space'
 
 export default function App() {
   const [tab,     setTab]     = useState('detect')
