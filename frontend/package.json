@@ -4,9 +4,9 @@
   "homepage": "https://ABDERRAOUF-IM.github.io/ai-food-detection-",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.383.0",
